@@ -1,4 +1,4 @@
-# 📚 ProfHub-AI
+# 📚 ProfHub-AI (GUI Version)
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Groq](https://img.shields.io/badge/Powered%20by-Groq-orange)
@@ -8,9 +8,22 @@
 ---
 
 ## 🧠 Overview
-**ProfHub-AI** is an intelligent Python-based educational chatbot that simulates a virtual university. It allows users to interact with specialized AI professors in different domains such as English, Computer Science, and Management. Each professor is strictly focused on its subject area, providing accurate and structured learning support.
+**ProfHub-AI** is an intelligent Python-based educational chatbot that simulates a virtual university.
 
-Powered by the **Groq API** and LLMs, ProfHub delivers fast, contextual, and educational responses in a lightweight terminal interface.
+This version provides a **Graphical User Interface (GUI)** built with **Tkinter**, allowing users to interact easily with specialized AI professors in different domains.
+
+Each professor is restricted to its subject area to ensure accurate and educational responses.
+
+---
+
+## 🖥️ Interface (Tkinter GUI)
+The application includes a simple and user-friendly graphical interface:
+
+- 🎓 Professor selection (Radio Buttons)
+- 💬 Scrollable chat area
+- ⌨️ Input field for user messages
+- 📤 Send button for interaction
+- ⚡ Real-time AI responses
 
 ---
 
@@ -24,43 +37,64 @@ Powered by the **Groq API** and LLMs, ProfHub delivers fast, contextual, and edu
 ---
 
 ## 🚀 Features
-- 🎓 Multi-professor AI system
-- 🧠 Strict domain-based responses
-- ⚡ Ultra-fast responses via Groq API
-- 💬 Interactive terminal chat
-- 🔁 Simple and lightweight architecture
-- 📚 Educational focus for students
+- 🖥️ Graphical interface using Tkinter  
+- 🎓 Multi-professor system  
+- 🧠 Domain-restricted AI responses  
+- ⚡ Fast responses via Groq API  
+- 💬 Interactive chat experience  
+- 📚 Educational focus for students  
 
----
-
-## 🖥️ Demo (CLI Interface)
-```bash
-Choose professor:
-1 - English
-2 - Computer Science
-3 - Management
-
-You: What is HTML?
-ProfHub: HTML is a markup language used to structure web pages...
-```
 ---
 
 ## 🛠️ Technologies
 - Python 🐍  
+- Tkinter 🖥️  
 - Groq API 🤖  
 - LLaMA 3.1 Model  
 
+---
+
 ## 🔐 API Key Setup
 
-Create an API key from Groq:
+Create an API key from Groq:  
 👉 https://console.groq.com/
 
 Then add it in your code:
 
+```python
 client = Groq(api_key="YOUR_API_KEY")
+```
+---
+
+## ▶️ How to Run
+
+- Install dependencies:
+```
+pip install groq
+```
+- Run the application:
+```
+python main.py
+```
+
+---
 
 ## 🎯 Goal
-To help students learn more effectively by interacting with specialized AI professors instead of a general chatbot.
+
+To help students learn more effectively through an intuitive graphical interface and specialized AI professors.
+
+---
+
+## 🔮 Future Improvements
+
+- 💾 Chat memory
+- 🌙 Dark mode
+- 🌐 Web version
+- 🔐 User authentication
+- 🎓 Integration with a university platform
+
+---
 
 ## 👨‍💻 Author
+
 Ilyas Sekhsoukhi
