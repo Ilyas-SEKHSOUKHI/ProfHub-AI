@@ -20,6 +20,10 @@ Each professor is restricted to its subject area to ensure accurate and educatio
 
 
 
+https://github.com/user-attachments/assets/ae8d22ca-6c18-47d4-9f32-9b9373950c26
+
+
+
 ---
 
 ## 🖥️ Interface (Tkinter GUI)
